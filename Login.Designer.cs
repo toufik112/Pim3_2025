@@ -39,6 +39,8 @@
             txbUsuarioLogin = new TextBox();
             txbSenhaLogin = new TextBox();
             pictureBox2 = new PictureBox();
+            txbCodigoFuncionarioLogin = new TextBox();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -94,16 +96,19 @@
             // lblClickaAquiLogin
             // 
             lblClickaAquiLogin.AutoSize = true;
+            lblClickaAquiLogin.Cursor = Cursors.Hand;
             lblClickaAquiLogin.ForeColor = Color.Blue;
             lblClickaAquiLogin.Location = new Point(1275, 532);
             lblClickaAquiLogin.Name = "lblClickaAquiLogin";
             lblClickaAquiLogin.Size = new Size(96, 20);
             lblClickaAquiLogin.TabIndex = 4;
             lblClickaAquiLogin.Text = "CLICKA AQUI";
+            lblClickaAquiLogin.Click += lblClickaAquiLogin_Click;
             // 
             // btnLogin
             // 
             btnLogin.BackColor = Color.Green;
+            btnLogin.Cursor = Cursors.Hand;
             btnLogin.FlatStyle = FlatStyle.Flat;
             btnLogin.ForeColor = Color.Black;
             btnLogin.Location = new Point(1182, 622);
@@ -112,7 +117,7 @@
             btnLogin.TabIndex = 5;
             btnLogin.Text = "LOGIN";
             btnLogin.UseVisualStyleBackColor = false;
-            btnLogin.Click += this.btnLogin_Click;
+            btnLogin.Click += btnLogin_Click;
             // 
             // txbUsuarioLogin
             // 
@@ -131,12 +136,29 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(1131, 147);
+            pictureBox2.Location = new Point(1131, 36);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(180, 124);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
+            // 
+            // txbCodigoFuncionarioLogin
+            // 
+            txbCodigoFuncionarioLogin.Location = new Point(1086, 248);
+            txbCodigoFuncionarioLogin.Name = "txbCodigoFuncionarioLogin";
+            txbCodigoFuncionarioLogin.Size = new Size(275, 27);
+            txbCodigoFuncionarioLogin.TabIndex = 10;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.ForeColor = Color.DarkViolet;
+            label3.Location = new Point(1086, 209);
+            label3.Name = "label3";
+            label3.Size = new Size(166, 20);
+            label3.TabIndex = 9;
+            label3.Text = "CODIGO FUNCIONARIO";
             // 
             // Login
             // 
@@ -144,6 +166,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Thistle;
             ClientSize = new Size(1713, 816);
+            Controls.Add(txbCodigoFuncionarioLogin);
+            Controls.Add(label3);
             Controls.Add(pictureBox2);
             Controls.Add(txbSenhaLogin);
             Controls.Add(txbUsuarioLogin);
@@ -175,5 +199,7 @@
         private Label label2;
         private Label label1;
         private PictureBox pictureBox2;
+        private TextBox txbCodigoFuncionarioLogin;
+        private Label label3;
     }
 }

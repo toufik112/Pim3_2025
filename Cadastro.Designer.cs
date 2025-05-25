@@ -77,6 +77,7 @@
             // btnCadastrar
             // 
             btnCadastrar.BackColor = Color.Green;
+            btnCadastrar.Cursor = Cursors.Hand;
             btnCadastrar.FlatStyle = FlatStyle.Flat;
             btnCadastrar.ForeColor = Color.Black;
             btnCadastrar.Location = new Point(1175, 701);
@@ -90,12 +91,14 @@
             // lblClickAquiCadastro
             // 
             lblClickAquiCadastro.AutoSize = true;
+            lblClickAquiCadastro.Cursor = Cursors.Hand;
             lblClickAquiCadastro.ForeColor = Color.Blue;
             lblClickAquiCadastro.Location = new Point(1271, 777);
             lblClickAquiCadastro.Name = "lblClickAquiCadastro";
             lblClickAquiCadastro.Size = new Size(96, 20);
             lblClickAquiCadastro.TabIndex = 13;
             lblClickAquiCadastro.Text = "CLICKA AQUI";
+            lblClickAquiCadastro.Click += lblClickAquiCadastro_Click;
             // 
             // lblTenhCadastro
             // 

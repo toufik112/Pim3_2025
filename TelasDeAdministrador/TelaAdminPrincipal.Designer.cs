@@ -43,12 +43,12 @@
             lblLivrosCadastradosAdm = new Label();
             lblBiblioteca = new Label();
             panel2 = new Panel();
+            label1 = new Label();
             lblSistemaAdm = new Label();
             lblPermissoesAdm = new Label();
             lblPerfiesAdm = new Label();
             lblClientesCadastradosAdm = new Label();
             panel1 = new Panel();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
@@ -59,7 +59,7 @@
             // 
             pnlPrincipal_Bibliotecario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlPrincipal_Bibliotecario.BackColor = SystemColors.Menu;
-            pnlPrincipal_Bibliotecario.Location = new Point(314, 196);
+            pnlPrincipal_Bibliotecario.Location = new Point(314, 240);
             pnlPrincipal_Bibliotecario.Name = "pnlPrincipal_Bibliotecario";
             pnlPrincipal_Bibliotecario.Size = new Size(1534, 745);
             pnlPrincipal_Bibliotecario.TabIndex = 5;
@@ -222,6 +222,18 @@
             panel2.Size = new Size(259, 790);
             panel2.TabIndex = 4;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Cursor = Cursors.Hand;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(19, 292);
+            label1.Name = "label1";
+            label1.Size = new Size(221, 31);
+            label1.TabIndex = 15;
+            label1.Text = "Livros Emprestados";
+            // 
             // lblSistemaAdm
             // 
             lblSistemaAdm.AutoSize = true;
@@ -287,18 +299,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1897, 143);
             panel1.TabIndex = 3;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Cursor = Cursors.Hand;
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(19, 292);
-            label1.Name = "label1";
-            label1.Size = new Size(221, 31);
-            label1.TabIndex = 15;
-            label1.Text = "Livros Emprestados";
             // 
             // TelaAdminPrincipal
             // 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pim3_2025")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db3861c1268b37d7d404b8974f59fdab38307809")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e38ff157d3f2e9710211bff1d0546f7064f7b62e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pim3_2025")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pim3_2025")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

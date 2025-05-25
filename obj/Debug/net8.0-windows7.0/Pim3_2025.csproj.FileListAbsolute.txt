@@ -25,7 +25,6 @@ C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_D
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_De_Administrador.UcSistemaAdm.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_De_Administrador.UcSuspenderRetomarClienteAdm.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_De_Administrador.UcSuspenderRetomarLivrosAdm.resources
-C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.TelaPrincipal.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcEstoque.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcCadastraraCliente.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcCadastrarLivros.resources
@@ -57,3 +56,4 @@ C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\refint\Pim3_2025.
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.pdb
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.genruntimeconfig.cache
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\ref\Pim3_2025.dll
+C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.TelaBibliotecarioPrincipal.resources

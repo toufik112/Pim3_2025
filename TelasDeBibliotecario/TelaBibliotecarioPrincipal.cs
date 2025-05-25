@@ -1,13 +1,18 @@
 ﻿namespace Pim3_2025.TelasDeBibliotecario
 {
-    public partial class TelaPrincipal : Form
+    public partial class TelaBibliotecarioPrincipal : Form
     {
-        public TelaPrincipal()
+        public TelaBibliotecarioPrincipal()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TelaPrincipal_Load(object sender, EventArgs e)
         {
 
         }

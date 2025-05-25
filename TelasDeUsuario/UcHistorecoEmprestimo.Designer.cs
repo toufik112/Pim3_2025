@@ -67,7 +67,7 @@
             // 
             dtgrHistoricoEmprestimo.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgrHistoricoEmprestimo.Columns.AddRange(new DataGridViewColumn[] { IDLIvro, TituloLivro, Isban, Autor, DataPrestar, DataDevolucao, Categoria });
-            dtgrHistoricoEmprestimo.Location = new Point(22, 175);
+            dtgrHistoricoEmprestimo.Location = new Point(106, 174);
             dtgrHistoricoEmprestimo.Name = "dtgrHistoricoEmprestimo";
             dtgrHistoricoEmprestimo.RowHeadersWidth = 51;
             dtgrHistoricoEmprestimo.Size = new Size(1312, 555);
@@ -136,7 +136,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(lblHistoricoEmprestimo);
             Name = "UcHistorecoEmprestimo";
-            Size = new Size(1360, 745);
+            Size = new Size(1534, 745);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtgrHistoricoEmprestimo).EndInit();
             ResumeLayout(false);

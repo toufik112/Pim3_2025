@@ -39,7 +39,7 @@
             // button1
             // 
             button1.BackColor = Color.Green;
-            button1.Location = new Point(638, 450);
+            button1.Location = new Point(711, 499);
             button1.Name = "button1";
             button1.Size = new Size(135, 39);
             button1.TabIndex = 1;
@@ -50,7 +50,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(221, 109);
+            label1.Location = new Point(294, 158);
             label1.Name = "label1";
             label1.Size = new Size(948, 106);
             label1.TabIndex = 2;
@@ -70,7 +70,7 @@
             tbxBuscarUsuario.Font = new Font("Segoe UI", 9F);
             tbxBuscarUsuario.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             tbxBuscarUsuario.IconLeft = (Image)resources.GetObject("tbxBuscarUsuario.IconLeft");
-            tbxBuscarUsuario.Location = new Point(221, 295);
+            tbxBuscarUsuario.Location = new Point(294, 344);
             tbxBuscarUsuario.Margin = new Padding(3, 4, 3, 4);
             tbxBuscarUsuario.Name = "tbxBuscarUsuario";
             tbxBuscarUsuario.PlaceholderText = "";
@@ -87,7 +87,7 @@
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "UcBuscaUsuario";
-            Size = new Size(1360, 745);
+            Size = new Size(1534, 745);
             ResumeLayout(false);
             PerformLayout();
         }

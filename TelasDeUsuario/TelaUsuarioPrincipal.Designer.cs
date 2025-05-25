@@ -28,40 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaUsuarioPrincipal));
-            pnlPrincipal_Bibliotecario = new Panel();
-            pictureBox2 = new PictureBox();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            pnlPrincipalUsuario = new Panel();
+            tbxBuscarUsuario = new Guna.UI2.WinForms.Guna2TextBox();
+            label1 = new Label();
             button1 = new Button();
+            pictureBox2 = new PictureBox();
+            btnSairUser = new Button();
             pictureBox1 = new PictureBox();
             label8 = new Label();
-            label1 = new Label();
+            lbl = new Label();
             label10 = new Label();
             panel2 = new Panel();
-            label6 = new Label();
-            lblSuspenderRetomarCliente = new Label();
-            lblClientesCadastrados = new Label();
-            label2 = new Label();
+            lblRegrasUser = new Label();
+            lblHistoricoEmprestimoUser = new Label();
+            lblDadosPessoalUser = new Label();
+            lblDesconectar = new Label();
             label11 = new Label();
             label9 = new Label();
             panel1 = new Panel();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            lblcadastroCliente_TelaBibliotecario = new Label();
+            lblNotificasoesUser = new Label();
+            lblFaqUser = new Label();
+            lblLivrosFamososUser = new Label();
+            lblTelaBuscaUser = new Label();
+            pnlPrincipalUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // pnlPrincipal_Bibliotecario
+            // pnlPrincipalUsuario
             // 
-            pnlPrincipal_Bibliotecario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            pnlPrincipal_Bibliotecario.BackColor = SystemColors.Menu;
-            pnlPrincipal_Bibliotecario.Location = new Point(314, 196);
-            pnlPrincipal_Bibliotecario.Name = "pnlPrincipal_Bibliotecario";
-            pnlPrincipal_Bibliotecario.Size = new Size(1534, 745);
-            pnlPrincipal_Bibliotecario.TabIndex = 5;
+            pnlPrincipalUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlPrincipalUsuario.BackColor = SystemColors.Menu;
+            pnlPrincipalUsuario.Controls.Add(tbxBuscarUsuario);
+            pnlPrincipalUsuario.Controls.Add(label1);
+            pnlPrincipalUsuario.Controls.Add(button1);
+            pnlPrincipalUsuario.Location = new Point(314, 240);
+            pnlPrincipalUsuario.Name = "pnlPrincipalUsuario";
+            pnlPrincipalUsuario.Size = new Size(1534, 745);
+            pnlPrincipalUsuario.TabIndex = 5;
+            pnlPrincipalUsuario.Paint += pnlPrincipalUsuario_Paint;
+            // 
+            // tbxBuscarUsuario
+            // 
+            tbxBuscarUsuario.AllowDrop = true;
+            tbxBuscarUsuario.BorderRadius = 25;
+            tbxBuscarUsuario.CustomizableEdges = customizableEdges3;
+            tbxBuscarUsuario.DefaultText = "Buscar Aqui...";
+            tbxBuscarUsuario.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            tbxBuscarUsuario.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            tbxBuscarUsuario.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            tbxBuscarUsuario.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            tbxBuscarUsuario.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxBuscarUsuario.Font = new Font("Segoe UI", 9F);
+            tbxBuscarUsuario.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            tbxBuscarUsuario.IconLeft = (Image)resources.GetObject("tbxBuscarUsuario.IconLeft");
+            tbxBuscarUsuario.Location = new Point(293, 344);
+            tbxBuscarUsuario.Margin = new Padding(3, 4, 3, 4);
+            tbxBuscarUsuario.Name = "tbxBuscarUsuario";
+            tbxBuscarUsuario.PlaceholderText = "";
+            tbxBuscarUsuario.SelectedText = "";
+            tbxBuscarUsuario.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            tbxBuscarUsuario.Size = new Size(948, 67);
+            tbxBuscarUsuario.TabIndex = 6;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(293, 158);
+            label1.Name = "label1";
+            label1.Size = new Size(948, 106);
+            label1.TabIndex = 5;
+            label1.Text = "BUSCA SEU LIVRO AQUI";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Green;
+            button1.Cursor = Cursors.Hand;
+            button1.Location = new Point(710, 499);
+            button1.Name = "button1";
+            button1.Size = new Size(135, 39);
+            button1.TabIndex = 4;
+            button1.Text = "BUSCAR";
+            button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
@@ -73,17 +127,18 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // button1
+            // btnSairUser
             // 
-            button1.BackColor = Color.Red;
-            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(1590, 45);
-            button1.Name = "button1";
-            button1.Size = new Size(102, 47);
-            button1.TabIndex = 7;
-            button1.Text = "SAIR";
-            button1.UseVisualStyleBackColor = false;
+            btnSairUser.BackColor = Color.Red;
+            btnSairUser.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSairUser.ForeColor = Color.White;
+            btnSairUser.Location = new Point(1560, 45);
+            btnSairUser.Name = "btnSairUser";
+            btnSairUser.Size = new Size(102, 47);
+            btnSairUser.TabIndex = 7;
+            btnSairUser.Text = "SAIR";
+            btnSairUser.UseVisualStyleBackColor = false;
+            btnSairUser.Click += btnSairUser_Click;
             // 
             // pictureBox1
             // 
@@ -106,17 +161,17 @@
             label8.TabIndex = 0;
             label8.Text = "Informaçoes Da Biblioteca:";
             // 
-            // label1
+            // lbl
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Bookman Old Style", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(237, 22);
-            label1.Name = "label1";
-            label1.Size = new Size(149, 99);
-            label1.TabIndex = 0;
-            label1.Text = "Biblioteca\r\n     de \r\n   Povo";
-            label1.TextAlign = ContentAlignment.MiddleLeft;
+            lbl.AutoSize = true;
+            lbl.Font = new Font("Bookman Old Style", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl.ForeColor = Color.White;
+            lbl.Location = new Point(237, 22);
+            lbl.Name = "lbl";
+            lbl.Size = new Size(149, 99);
+            lbl.TabIndex = 0;
+            lbl.Text = "Biblioteca\r\n     de \r\n   Povo";
+            lbl.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // label10
             // 
@@ -132,10 +187,10 @@
             // panel2
             // 
             panel2.BackColor = Color.DarkViolet;
-            panel2.Controls.Add(label6);
-            panel2.Controls.Add(lblSuspenderRetomarCliente);
-            panel2.Controls.Add(lblClientesCadastrados);
-            panel2.Controls.Add(label2);
+            panel2.Controls.Add(lblRegrasUser);
+            panel2.Controls.Add(lblHistoricoEmprestimoUser);
+            panel2.Controls.Add(lblDadosPessoalUser);
+            panel2.Controls.Add(lblDesconectar);
             panel2.Controls.Add(label11);
             panel2.Controls.Add(label10);
             panel2.Controls.Add(label9);
@@ -145,49 +200,53 @@
             panel2.Size = new Size(259, 790);
             panel2.TabIndex = 4;
             // 
-            // label6
+            // lblRegrasUser
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(8, 223);
-            label6.Name = "label6";
-            label6.Size = new Size(246, 30);
-            label6.TabIndex = 15;
-            label6.Text = "Regras de Emprestimo";
+            lblRegrasUser.AutoSize = true;
+            lblRegrasUser.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblRegrasUser.ForeColor = Color.White;
+            lblRegrasUser.Location = new Point(8, 223);
+            lblRegrasUser.Name = "lblRegrasUser";
+            lblRegrasUser.Size = new Size(246, 30);
+            lblRegrasUser.TabIndex = 15;
+            lblRegrasUser.Text = "Regras de Emprestimo";
+            lblRegrasUser.Click += lblRegrasUser_Click;
             // 
-            // lblSuspenderRetomarCliente
+            // lblHistoricoEmprestimoUser
             // 
-            lblSuspenderRetomarCliente.AutoSize = true;
-            lblSuspenderRetomarCliente.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblSuspenderRetomarCliente.ForeColor = Color.White;
-            lblSuspenderRetomarCliente.Location = new Point(0, 125);
-            lblSuspenderRetomarCliente.Name = "lblSuspenderRetomarCliente";
-            lblSuspenderRetomarCliente.Size = new Size(251, 28);
-            lblSuspenderRetomarCliente.TabIndex = 14;
-            lblSuspenderRetomarCliente.Text = "Hestorico de Empréstimo";
+            lblHistoricoEmprestimoUser.AutoSize = true;
+            lblHistoricoEmprestimoUser.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblHistoricoEmprestimoUser.ForeColor = Color.White;
+            lblHistoricoEmprestimoUser.Location = new Point(0, 125);
+            lblHistoricoEmprestimoUser.Name = "lblHistoricoEmprestimoUser";
+            lblHistoricoEmprestimoUser.Size = new Size(251, 28);
+            lblHistoricoEmprestimoUser.TabIndex = 14;
+            lblHistoricoEmprestimoUser.Text = "Hestorico de Empréstimo";
+            lblHistoricoEmprestimoUser.Click += lblHistoricoEmprestimoUser_Click;
             // 
-            // lblClientesCadastrados
+            // lblDadosPessoalUser
             // 
-            lblClientesCadastrados.AutoSize = true;
-            lblClientesCadastrados.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            lblClientesCadastrados.ForeColor = Color.White;
-            lblClientesCadastrados.Location = new Point(12, 36);
-            lblClientesCadastrados.Name = "lblClientesCadastrados";
-            lblClientesCadastrados.Size = new Size(160, 30);
-            lblClientesCadastrados.TabIndex = 12;
-            lblClientesCadastrados.Text = "Dados Pessoal";
+            lblDadosPessoalUser.AutoSize = true;
+            lblDadosPessoalUser.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblDadosPessoalUser.ForeColor = Color.White;
+            lblDadosPessoalUser.Location = new Point(12, 36);
+            lblDadosPessoalUser.Name = "lblDadosPessoalUser";
+            lblDadosPessoalUser.Size = new Size(160, 30);
+            lblDadosPessoalUser.TabIndex = 12;
+            lblDadosPessoalUser.Text = "Dados Pessoal";
+            lblDadosPessoalUser.Click += lblDadosPessoalUser_Click;
             // 
-            // label2
+            // lblDesconectar
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(12, 310);
-            label2.Name = "label2";
-            label2.Size = new Size(141, 30);
-            label2.TabIndex = 9;
-            label2.Text = "Desconectar";
+            lblDesconectar.AutoSize = true;
+            lblDesconectar.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblDesconectar.ForeColor = Color.White;
+            lblDesconectar.Location = new Point(12, 310);
+            lblDesconectar.Name = "lblDesconectar";
+            lblDesconectar.Size = new Size(141, 30);
+            lblDesconectar.TabIndex = 9;
+            lblDesconectar.Text = "Desconectar";
+            lblDesconectar.Click += lblDesconectar_Click;
             // 
             // label11
             // 
@@ -214,63 +273,67 @@
             // panel1
             // 
             panel1.BackColor = Color.DarkViolet;
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(lblcadastroCliente_TelaBibliotecario);
+            panel1.Controls.Add(lblNotificasoesUser);
+            panel1.Controls.Add(lblFaqUser);
+            panel1.Controls.Add(lblLivrosFamososUser);
+            panel1.Controls.Add(lblTelaBuscaUser);
             panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btnSairUser);
             panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(label1);
+            panel1.Controls.Add(lbl);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(1897, 143);
             panel1.TabIndex = 3;
             // 
-            // label5
+            // lblNotificasoesUser
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(993, 56);
-            label5.Name = "label5";
-            label5.Size = new Size(141, 30);
-            label5.TabIndex = 15;
-            label5.Text = "Notificaçoes";
+            lblNotificasoesUser.AutoSize = true;
+            lblNotificasoesUser.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblNotificasoesUser.ForeColor = Color.White;
+            lblNotificasoesUser.Location = new Point(1051, 56);
+            lblNotificasoesUser.Name = "lblNotificasoesUser";
+            lblNotificasoesUser.Size = new Size(141, 30);
+            lblNotificasoesUser.TabIndex = 15;
+            lblNotificasoesUser.Text = "Notificaçoes";
+            lblNotificasoesUser.Click += lblNotificasoesUser_Click;
             // 
-            // label4
+            // lblFaqUser
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(1243, 58);
-            label4.Name = "label4";
-            label4.Size = new Size(55, 30);
-            label4.TabIndex = 11;
-            label4.Text = "FAQ";
+            lblFaqUser.AutoSize = true;
+            lblFaqUser.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblFaqUser.ForeColor = Color.White;
+            lblFaqUser.Location = new Point(1301, 58);
+            lblFaqUser.Name = "lblFaqUser";
+            lblFaqUser.Size = new Size(55, 30);
+            lblFaqUser.TabIndex = 11;
+            lblFaqUser.Text = "FAQ";
+            lblFaqUser.Click += lblFaqUser_Click;
             // 
-            // label3
+            // lblLivrosFamososUser
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(722, 54);
-            label3.Name = "label3";
-            label3.Size = new Size(168, 30);
-            label3.TabIndex = 10;
-            label3.Text = "Livros Famosos";
+            lblLivrosFamososUser.AutoSize = true;
+            lblLivrosFamososUser.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblLivrosFamososUser.ForeColor = Color.White;
+            lblLivrosFamososUser.Location = new Point(780, 54);
+            lblLivrosFamososUser.Name = "lblLivrosFamososUser";
+            lblLivrosFamososUser.Size = new Size(168, 30);
+            lblLivrosFamososUser.TabIndex = 10;
+            lblLivrosFamososUser.Text = "Livros Famosos";
+            lblLivrosFamososUser.Click += lblLivrosFamososUser_Click;
             // 
-            // lblcadastroCliente_TelaBibliotecario
+            // lblTelaBuscaUser
             // 
-            lblcadastroCliente_TelaBibliotecario.AutoSize = true;
-            lblcadastroCliente_TelaBibliotecario.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            lblcadastroCliente_TelaBibliotecario.ForeColor = Color.White;
-            lblcadastroCliente_TelaBibliotecario.Location = new Point(480, 54);
-            lblcadastroCliente_TelaBibliotecario.Name = "lblcadastroCliente_TelaBibliotecario";
-            lblcadastroCliente_TelaBibliotecario.Size = new Size(152, 30);
-            lblcadastroCliente_TelaBibliotecario.TabIndex = 8;
-            lblcadastroCliente_TelaBibliotecario.Text = "Tela de Busca";
+            lblTelaBuscaUser.AutoSize = true;
+            lblTelaBuscaUser.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            lblTelaBuscaUser.ForeColor = Color.White;
+            lblTelaBuscaUser.Location = new Point(538, 54);
+            lblTelaBuscaUser.Name = "lblTelaBuscaUser";
+            lblTelaBuscaUser.Size = new Size(152, 30);
+            lblTelaBuscaUser.TabIndex = 8;
+            lblTelaBuscaUser.Text = "Tela de Busca";
+            lblTelaBuscaUser.Click += lblTelaBuscaUser_Click;
             // 
             // TelaUsuarioPrincipal
             // 
@@ -278,11 +341,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Thistle;
             ClientSize = new Size(1897, 987);
-            Controls.Add(pnlPrincipal_Bibliotecario);
+            Controls.Add(pnlPrincipalUsuario);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "TelaUsuarioPrincipal";
             Text = "TelaPrincipalUsuario";
+            Load += TelaUsuarioPrincipal_Load;
+            pnlPrincipalUsuario.ResumeLayout(false);
+            pnlPrincipalUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
@@ -296,22 +362,26 @@
 
         private Panel pnlPrincipal_Bibliotecario;
         private PictureBox pictureBox2;
-        private Button button1;
+        private Button btnSairUser;
         private PictureBox pictureBox1;
         private Label label8;
-        private Label label1;
+        private Label lbl;
         private Label label10;
         private Panel panel2;
         private Label label9;
         private Panel panel1;
         private Label label11;
-        private Label lblSuspenderRetomarCliente;
-        private Label lblClientesCadastrados;
-        private Label lblcadastroCliente_TelaBibliotecario;
-        private Label label3;
-        private Label label2;
-        private Label label4;
-        private Label label6;
-        private Label label5;
+        private Label lblHistoricoEmprestimoUser;
+        private Label lblDadosPessoalUser;
+        private Label lblTelaBuscaUser;
+        private Label lblLivrosFamososUser;
+        private Label lblDesconectar;
+        private Label lblFaqUser;
+        private Label lblRegrasUser;
+        private Label lblNotificasoesUser;
+        public Panel pnlPrincipalUsuario;
+        private Guna.UI2.WinForms.Guna2TextBox tbxBuscarUsuario;
+        private Label label1;
+        private Button button1;
     }
 }

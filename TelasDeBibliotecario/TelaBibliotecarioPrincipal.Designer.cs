@@ -1,6 +1,6 @@
 ﻿namespace Pim3_2025.TelasDeBibliotecario
 {
-    partial class TelaPrincipal
+    partial class TelaBibliotecarioPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaBibliotecarioPrincipal));
             panel1 = new Panel();
             lblCadastroLivros_TelaBibliotecario = new Label();
             pictureBox2 = new PictureBox();
@@ -278,12 +278,12 @@
             // 
             pnlPrincipal_Bibliotecario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlPrincipal_Bibliotecario.BackColor = SystemColors.Menu;
-            pnlPrincipal_Bibliotecario.Location = new Point(314, 196);
+            pnlPrincipal_Bibliotecario.Location = new Point(314, 240);
             pnlPrincipal_Bibliotecario.Name = "pnlPrincipal_Bibliotecario";
             pnlPrincipal_Bibliotecario.Size = new Size(1534, 745);
             pnlPrincipal_Bibliotecario.TabIndex = 2;
             // 
-            // TelaPrincipal
+            // TelaBibliotecarioPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -293,7 +293,7 @@
             Controls.Add(pnlPrincipal_Bibliotecario);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Name = "TelaPrincipal";
+            Name = "TelaBibliotecarioPrincipal";
             StartPosition = FormStartPosition.CenterParent;
             Text = "TelaPrincipal";
             panel1.ResumeLayout(false);
