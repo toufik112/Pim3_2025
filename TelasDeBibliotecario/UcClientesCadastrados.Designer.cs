@@ -47,7 +47,7 @@
             // 
             dtgrClientesCadastrados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgrClientesCadastrados.Columns.AddRange(new DataGridViewColumn[] { IDLIvro, TituloLivro, Autor, DataDevolucao, Isban, DataPrestar, Categoria });
-            dtgrClientesCadastrados.Location = new Point(21, 175);
+            dtgrClientesCadastrados.Location = new Point(108, 175);
             dtgrClientesCadastrados.Name = "dtgrClientesCadastrados";
             dtgrClientesCadastrados.RowHeadersWidth = 51;
             dtgrClientesCadastrados.Size = new Size(1312, 555);
@@ -136,7 +136,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(lblCadaCliente);
             Name = "UcClientesCadastrados";
-            Size = new Size(1360, 745);
+            Size = new Size(1534, 745);
             ((System.ComponentModel.ISupportInitialize)dtgrClientesCadastrados).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

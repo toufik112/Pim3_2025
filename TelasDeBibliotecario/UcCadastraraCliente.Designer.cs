@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcCadastraraCliente));
-            label1 = new Label();
-            txbCodFuncionario_CadastroCliente = new TextBox();
             txbNomeCliente_CadastroCliente = new TextBox();
             label2 = new Label();
             txbRG_CadastroCliente = new TextBox();
@@ -50,28 +48,14 @@
             btnCancelar_CadastroCliente = new Button();
             lblCadaCliente = new Label();
             pictureBox1 = new PictureBox();
+            dateTimePicker1 = new DateTimePicker();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(59, 203);
-            label1.Name = "label1";
-            label1.Size = new Size(192, 20);
-            label1.TabIndex = 0;
-            label1.Text = "*CODIGODE FONCIONARIO";
-            // 
-            // txbCodFuncionario_CadastroCliente
-            // 
-            txbCodFuncionario_CadastroCliente.Location = new Point(59, 244);
-            txbCodFuncionario_CadastroCliente.Name = "txbCodFuncionario_CadastroCliente";
-            txbCodFuncionario_CadastroCliente.Size = new Size(318, 27);
-            txbCodFuncionario_CadastroCliente.TabIndex = 1;
-            // 
             // txbNomeCliente_CadastroCliente
             // 
-            txbNomeCliente_CadastroCliente.Location = new Point(451, 244);
+            txbNomeCliente_CadastroCliente.Location = new Point(70, 244);
             txbNomeCliente_CadastroCliente.Name = "txbNomeCliente_CadastroCliente";
             txbNomeCliente_CadastroCliente.Size = new Size(323, 27);
             txbNomeCliente_CadastroCliente.TabIndex = 3;
@@ -79,7 +63,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(451, 203);
+            label2.Location = new Point(70, 203);
             label2.Name = "label2";
             label2.Size = new Size(134, 20);
             label2.TabIndex = 2;
@@ -87,7 +71,7 @@
             // 
             // txbRG_CadastroCliente
             // 
-            txbRG_CadastroCliente.Location = new Point(916, 244);
+            txbRG_CadastroCliente.Location = new Point(518, 244);
             txbRG_CadastroCliente.Name = "txbRG_CadastroCliente";
             txbRG_CadastroCliente.Size = new Size(312, 27);
             txbRG_CadastroCliente.TabIndex = 5;
@@ -95,7 +79,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(916, 203);
+            label3.Location = new Point(518, 203);
             label3.Name = "label3";
             label3.Size = new Size(62, 20);
             label3.TabIndex = 4;
@@ -231,11 +215,29 @@
             pictureBox1.TabIndex = 22;
             pictureBox1.TabStop = false;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(943, 242);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(301, 27);
+            dateTimePicker1.TabIndex = 23;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(943, 203);
+            label1.Name = "label1";
+            label1.Size = new Size(139, 20);
+            label1.TabIndex = 24;
+            label1.Text = "Data de Nacimento";
+            // 
             // UcCadastraraCliente
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Menu;
+            Controls.Add(label1);
+            Controls.Add(dateTimePicker1);
             Controls.Add(pictureBox1);
             Controls.Add(lblCadaCliente);
             Controls.Add(btnCancelar_CadastroCliente);
@@ -255,10 +257,8 @@
             Controls.Add(label3);
             Controls.Add(txbNomeCliente_CadastroCliente);
             Controls.Add(label2);
-            Controls.Add(txbCodFuncionario_CadastroCliente);
-            Controls.Add(label1);
             Name = "UcCadastraraCliente";
-            Size = new Size(1360, 745);
+            Size = new Size(1534, 745);
             Load += UcCadastraraCliente_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -266,8 +266,6 @@
         }
 
         #endregion
-
-        private Label label1;
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label2;
@@ -288,7 +286,6 @@
         private Button button2;
         private Button button3;
         private Label lblCadaCliente;
-        private TextBox txbCodFuncionario_CadastroCliente;
         private TextBox txbNomeCliente_CadastroCliente;
         private TextBox txbRG_CadastroCliente;
         private TextBox txbTelefone_CadastroCliente;
@@ -300,5 +297,6 @@
         private Button txbLempar_CadastroCliente;
         private Button btnCancelar_CadastroCliente;
         private PictureBox pictureBox1;
+        private Label label1;
     }
 }

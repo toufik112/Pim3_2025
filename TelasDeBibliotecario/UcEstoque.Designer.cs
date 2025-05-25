@@ -67,7 +67,7 @@
             // 
             dtgrdEstoque_Bibliotecario.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dtgrdEstoque_Bibliotecario.Columns.AddRange(new DataGridViewColumn[] { idLivro, TituloLivro, Autor, Categoria, Editora, AnoPublicacao, Quantidade });
-            dtgrdEstoque_Bibliotecario.Location = new Point(22, 175);
+            dtgrdEstoque_Bibliotecario.Location = new Point(107, 175);
             dtgrdEstoque_Bibliotecario.Name = "dtgrdEstoque_Bibliotecario";
             dtgrdEstoque_Bibliotecario.RowHeadersWidth = 51;
             dtgrdEstoque_Bibliotecario.Size = new Size(1312, 555);
@@ -137,7 +137,7 @@
             Controls.Add(label9);
             Controls.Add(pictureBox1);
             Name = "UcBiblioteca";
-            Size = new Size(1360, 745);
+            Size = new Size(1534, 745);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtgrdEstoque_Bibliotecario).EndInit();
             ResumeLayout(false);

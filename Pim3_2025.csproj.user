@@ -7,7 +7,52 @@
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="TelasDeBibliotecario\TelaPrincipal.cs">
+    <Compile Update="Telas De Administrador\TelaAdminPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcBibliotecaAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcCadastroPessoaAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcCadastroLivroAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcClientesCadastradosAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcDevolucaoAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcEmprestadoAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcEstoqueAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcLivrosCadastradosAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcLivrosEmprestadosAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcPerfiesAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcPermissoesAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcSistemaAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcSuspenderRetomarClienteAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Telas De Administrador\UcSuspenderRetomarLivrosAdm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="TelasDeBibliotecario\TelaBibliotecarioPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TelasDeBibliotecario\UcClientesCadastrados.cs">
@@ -31,13 +76,10 @@
     <Compile Update="TelasDeBibliotecario\UcBiblioteca.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="TelasDeBibliotecario\UcLivros Emprestados.cs">
+    <Compile Update="TelasDeBibliotecario\UcLivrosCadastrados.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="TelasDeBibliotecario\UcSuspenderRetomarCliente.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="TelasDeBibliotecario\UcSuspenderRetomarLivro.cs">
+    <Compile Update="TelasDeBibliotecario\UcLivrosEmprestados.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="TelasDeUsuario\TelaUsuarioPrincipal.cs">

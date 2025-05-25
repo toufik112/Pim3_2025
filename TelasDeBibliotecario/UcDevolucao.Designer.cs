@@ -218,7 +218,7 @@
             Controls.Add(txbCodFuncionario_DevolucaoLivro);
             Controls.Add(label1);
             Name = "UcDevolucao";
-            Size = new Size(1360, 745);
+            Size = new Size(1534, 745);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
