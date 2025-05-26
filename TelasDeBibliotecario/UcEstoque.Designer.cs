@@ -1,6 +1,6 @@
 ﻿namespace Pim3_2025.TelasDeBibliotecario
 {
-    partial class UcBiblioteca
+    partial class UcEstoqueBibliotecario
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcBiblioteca));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcEstoqueBibliotecario));
             label9 = new Label();
             pictureBox1 = new PictureBox();
             dtgrdEstoque_Bibliotecario = new DataGridView();
@@ -129,14 +129,14 @@
             Quantidade.ReadOnly = true;
             Quantidade.Width = 150;
             // 
-            // UcBiblioteca
+            // UcEstoqueBibliotecario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(dtgrdEstoque_Bibliotecario);
             Controls.Add(label9);
             Controls.Add(pictureBox1);
-            Name = "UcBiblioteca";
+            Name = "UcEstoqueBibliotecario";
             Size = new Size(1534, 745);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dtgrdEstoque_Bibliotecario).EndInit();

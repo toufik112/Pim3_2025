@@ -1,6 +1,6 @@
 ﻿namespace Pim3_2025.TelasDeBibliotecario
 {
-    partial class UcEstoque
+    partial class UcBiblioteca
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcEstoque));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UcBiblioteca));
             panel1 = new Panel();
             pictureBox5 = new PictureBox();
             lblTotalEmprestados = new Label();
@@ -60,7 +60,7 @@
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            SuspendLayout();
+         //   SuspendLayout();
             // 
             // panel1
             // 
@@ -298,7 +298,7 @@
             label9.TabIndex = 22;
             label9.Text = "BIBLIOTECA";
             // 
-            // UcEstoque
+            // UcBiblioteca
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -308,7 +308,7 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Name = "UcEstoque";
+            Name = "UcBiblioteca";
             Size = new Size(1534, 745);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

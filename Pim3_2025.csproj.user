@@ -55,6 +55,9 @@
     <Compile Update="TelasDeBibliotecario\TelaBibliotecarioPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="TelasDeBibliotecario\UcBibliotecaBibliotecario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="TelasDeBibliotecario\UcClientesCadastrados.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -71,9 +74,6 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="TelasDeBibliotecario\UcEmprestado.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="TelasDeBibliotecario\UcBiblioteca.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="TelasDeBibliotecario\UcLivrosCadastrados.cs">

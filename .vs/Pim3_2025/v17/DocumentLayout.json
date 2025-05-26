@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\toufi\\Documents\\Pim3_2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|C:\\Users\\toufi\\Documents\\Pim3_2025\\telasdeusuario\\ucbuscausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:telasdeusuario\\ucbuscausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|c:\\users\\toufi\\documents\\pim3_2025\\telasdebibliotecario\\ucbibliotecabibliotecario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:telasdebibliotecario\\ucbibliotecabibliotecario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|c:\\users\\toufi\\documents\\pim3_2025\\telasdeusuario\\telausuarioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:telasdeusuario\\telausuarioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|C:\\Users\\toufi\\Documents\\Pim3_2025\\telasdebibliotecario\\ucestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:telasdebibliotecario\\ucestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|c:\\users\\toufi\\documents\\pim3_2025\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|C:\\Users\\toufi\\Documents\\Pim3_2025\\telasdebibliotecario\\telabibliotecarioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:telasdebibliotecario\\telabibliotecarioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|C:\\Users\\toufi\\Documents\\Pim3_2025\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|c:\\users\\toufi\\documents\\pim3_2025\\telasdebibliotecario\\telabibliotecarioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4177284-2B44-4532-B681-3BD30452757D}|Pim3_2025.csproj|solutionrelative:telasdebibliotecario\\telabibliotecarioprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcBiblioteca.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TelasDeBibliotecario\\UcBiblioteca.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:56:52.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\Login.cs [Projeto]",
-              "RelativeToolTip": "Login.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:56:44.218Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UcBuscaUsuario.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeUsuario\\UcBuscaUsuario.cs",
-              "RelativeDocumentMoniker": "TelasDeUsuario\\UcBuscaUsuario.cs",
-              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeUsuario\\UcBuscaUsuario.cs [Projeto]",
-              "RelativeToolTip": "TelasDeUsuario\\UcBuscaUsuario.cs [Projeto]",
+              "Title": "UcBibliotecaBibliotecario.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcBibliotecaBibliotecario.cs",
+              "RelativeDocumentMoniker": "TelasDeBibliotecario\\UcBibliotecaBibliotecario.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcBibliotecaBibliotecario.cs [Projeto]",
+              "RelativeToolTip": "TelasDeBibliotecario\\UcBibliotecaBibliotecario.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:54:17.293Z",
+              "WhenOpened": "2025-05-26T16:51:38.657Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UcBiblioteca.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcBiblioteca.Designer.cs",
+              "RelativeDocumentMoniker": "TelasDeBibliotecario\\UcBiblioteca.Designer.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcBiblioteca.Designer.cs",
+              "RelativeToolTip": "TelasDeBibliotecario\\UcBiblioteca.Designer.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwD4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:46:17.379Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TelaUsuarioPrincipal.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeUsuario\\TelaUsuarioPrincipal.cs",
-              "RelativeDocumentMoniker": "TelasDeUsuario\\TelaUsuarioPrincipal.cs",
-              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeUsuario\\TelaUsuarioPrincipal.cs [Projeto]",
-              "RelativeToolTip": "TelasDeUsuario\\TelaUsuarioPrincipal.cs [Projeto]",
+              "Title": "UcEstoque.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcEstoque.cs",
+              "RelativeDocumentMoniker": "TelasDeBibliotecario\\UcEstoque.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\UcEstoque.cs [Projeto]",
+              "RelativeToolTip": "TelasDeBibliotecario\\UcEstoque.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T07:35:18.745Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-26T16:40:43.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelaBibliotecarioPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs",
+              "RelativeDocumentMoniker": "TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs [Projeto]",
+              "RelativeToolTip": "TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:18:58.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelaBibliotecarioPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs",
+              "RelativeDocumentMoniker": "TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs",
+              "ToolTip": "C:\\Users\\toufi\\Documents\\Pim3_2025\\TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs",
+              "RelativeToolTip": "TelasDeBibliotecario\\TelaBibliotecarioPrincipal.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAvwDMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:19:09.325Z"
             }
           ]
         }

@@ -25,13 +25,11 @@ C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_D
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_De_Administrador.UcSistemaAdm.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_De_Administrador.UcSuspenderRetomarClienteAdm.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.Telas_De_Administrador.UcSuspenderRetomarLivrosAdm.resources
-C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcEstoque.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcCadastraraCliente.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcCadastrarLivros.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcClientesCadastrados.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcDevolucao.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcEmprestado.resources
-C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcBiblioteca.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcLivrosCadastrados.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcLivros_Emprestados.resources
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeUsuario.TelaUsuarioPrincipal.resources
@@ -57,3 +55,5 @@ C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.pdb
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.genruntimeconfig.cache
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\ref\Pim3_2025.dll
 C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.TelaBibliotecarioPrincipal.resources
+C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcBibliotecaBibliotecario.resources
+C:\Users\toufi\Documents\Pim3_2025\obj\Debug\net8.0-windows7.0\Pim3_2025.TelasDeBibliotecario.UcEstoqueBibliotecario.resources

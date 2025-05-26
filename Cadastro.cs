@@ -10,7 +10,7 @@ namespace Pim3_2025
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
-        { 
+        {
             TelaBibliotecarioPrincipal telaPrincipal = new TelaBibliotecarioPrincipal();
             telaPrincipal.Show();
             this.Hide();

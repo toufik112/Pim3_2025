@@ -11,6 +11,12 @@
   <ItemGroup>
     <Compile Remove="TelasDeBibliotecario\Biblioteca.cs" />
     <Compile Remove="TelasDeBibliotecario\Biblioteca.Designer.cs" />
+    <Compile Remove="TelasDeBibliotecario\UcBiblioteca.cs" />
+    <Compile Remove="TelasDeBibliotecario\UcBiblioteca.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="TelasDeBibliotecario\UcBiblioteca.resx" />
   </ItemGroup>
 
   <ItemGroup>

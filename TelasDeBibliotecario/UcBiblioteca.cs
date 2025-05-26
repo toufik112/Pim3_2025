@@ -1,8 +1,8 @@
 ﻿namespace Pim3_2025.TelasDeBibliotecario
 {
-    public partial class UcEstoque : UserControl
+    public partial class UcEstoqueBibliotecario : UserControl
     {
-        public UcEstoque()
+        public UcEstoqueBibliotecario()
         {
             InitializeComponent();
         }
