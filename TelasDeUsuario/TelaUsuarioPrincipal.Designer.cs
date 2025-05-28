@@ -28,13 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaUsuarioPrincipal));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pnlPrincipalUsuario = new Panel();
-            tbxBuscarUsuario = new Guna.UI2.WinForms.Guna2TextBox();
-            label1 = new Label();
-            button1 = new Button();
             pictureBox2 = new PictureBox();
             btnSairUser = new Button();
             pictureBox1 = new PictureBox();
@@ -53,6 +48,7 @@
             lblFaqUser = new Label();
             lblLivrosFamososUser = new Label();
             lblTelaBuscaUser = new Label();
+            label1 = new Label();
             pnlPrincipalUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -64,58 +60,12 @@
             // 
             pnlPrincipalUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             pnlPrincipalUsuario.BackColor = SystemColors.Menu;
-            pnlPrincipalUsuario.Controls.Add(tbxBuscarUsuario);
             pnlPrincipalUsuario.Controls.Add(label1);
-            pnlPrincipalUsuario.Controls.Add(button1);
             pnlPrincipalUsuario.Location = new Point(314, 240);
             pnlPrincipalUsuario.Name = "pnlPrincipalUsuario";
             pnlPrincipalUsuario.Size = new Size(1534, 745);
             pnlPrincipalUsuario.TabIndex = 5;
             pnlPrincipalUsuario.Paint += pnlPrincipalUsuario_Paint;
-            // 
-            // tbxBuscarUsuario
-            // 
-            tbxBuscarUsuario.AllowDrop = true;
-            tbxBuscarUsuario.BorderRadius = 25;
-            tbxBuscarUsuario.CustomizableEdges = customizableEdges3;
-            tbxBuscarUsuario.DefaultText = "Buscar Aqui...";
-            tbxBuscarUsuario.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            tbxBuscarUsuario.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            tbxBuscarUsuario.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            tbxBuscarUsuario.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            tbxBuscarUsuario.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxBuscarUsuario.Font = new Font("Segoe UI", 9F);
-            tbxBuscarUsuario.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            tbxBuscarUsuario.IconLeft = (Image)resources.GetObject("tbxBuscarUsuario.IconLeft");
-            tbxBuscarUsuario.Location = new Point(293, 344);
-            tbxBuscarUsuario.Margin = new Padding(3, 4, 3, 4);
-            tbxBuscarUsuario.Name = "tbxBuscarUsuario";
-            tbxBuscarUsuario.PlaceholderText = "";
-            tbxBuscarUsuario.SelectedText = "";
-            tbxBuscarUsuario.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            tbxBuscarUsuario.Size = new Size(948, 67);
-            tbxBuscarUsuario.TabIndex = 6;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(293, 158);
-            label1.Name = "label1";
-            label1.Size = new Size(948, 106);
-            label1.TabIndex = 5;
-            label1.Text = "BUSCA SEU LIVRO AQUI";
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Green;
-            button1.Cursor = Cursors.Hand;
-            button1.Location = new Point(710, 499);
-            button1.Name = "button1";
-            button1.Size = new Size(135, 39);
-            button1.TabIndex = 4;
-            button1.Text = "BUSCAR";
-            button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
@@ -334,6 +284,16 @@
             lblTelaBuscaUser.TabIndex = 8;
             lblTelaBuscaUser.Text = "Tela de Busca";
             lblTelaBuscaUser.Click += lblTelaBuscaUser_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("High Tower Text", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(290, 160);
+            label1.Name = "label1";
+            label1.Size = new Size(980, 423);
+            label1.TabIndex = 1;
+            label1.Text = "     Bem Vindo\r\n            ao\r\nBiblioteca de Povo";
             // 
             // TelaUsuarioPrincipal
             // 

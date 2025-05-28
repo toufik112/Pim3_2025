@@ -29,52 +29,67 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaAdminPrincipal));
-            pnlPrincipal_Bibliotecario = new Panel();
-            lblCadastroLivros_TelaBibliotecario = new Label();
+            pnlPrincipalAdm = new Panel();
+            label1 = new Label();
+            lblCadastroLivros_TelaAdm = new Label();
             pictureBox2 = new PictureBox();
-            btnSair_TelaBibliotecario = new Button();
-            lblEstoque_TelaBibliotecario = new Label();
-            lblDevolucao_TelaBibliotecario = new Label();
-            lblEmprestimo_TelaBibliotecario = new Label();
-            lblCadastroCliente_TelaBibliotecario = new Label();
+            btnSair_TelaAdm = new Button();
+            lblEstoque_TelaAdm = new Label();
+            lblDevolucao_TelaAdm = new Label();
+            lblEmprestimo_TelaAdm = new Label();
+            lblCadastroPessoa_TelaAdm = new Label();
             pictureBox1 = new PictureBox();
             lblSuspenderRetomarLivrosAdm = new Label();
             lblSuspenderRetomarClienteAdm = new Label();
             lblLivrosCadastradosAdm = new Label();
             lblBiblioteca = new Label();
             panel2 = new Panel();
-            label1 = new Label();
+            lblDesconectarAdm = new Label();
+            lblLivrosEmprestadosAdm = new Label();
             lblSistemaAdm = new Label();
             lblPermissoesAdm = new Label();
             lblPerfiesAdm = new Label();
             lblClientesCadastradosAdm = new Label();
             panel1 = new Panel();
+            pnlPrincipalAdm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // pnlPrincipal_Bibliotecario
+            // pnlPrincipalAdm
             // 
-            pnlPrincipal_Bibliotecario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            pnlPrincipal_Bibliotecario.BackColor = SystemColors.Menu;
-            pnlPrincipal_Bibliotecario.Location = new Point(314, 240);
-            pnlPrincipal_Bibliotecario.Name = "pnlPrincipal_Bibliotecario";
-            pnlPrincipal_Bibliotecario.Size = new Size(1534, 745);
-            pnlPrincipal_Bibliotecario.TabIndex = 5;
+            pnlPrincipalAdm.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            pnlPrincipalAdm.BackColor = SystemColors.Menu;
+            pnlPrincipalAdm.Controls.Add(label1);
+            pnlPrincipalAdm.Location = new Point(314, 240);
+            pnlPrincipalAdm.Name = "pnlPrincipalAdm";
+            pnlPrincipalAdm.Size = new Size(1534, 745);
+            pnlPrincipalAdm.TabIndex = 5;
             // 
-            // lblCadastroLivros_TelaBibliotecario
+            // label1
             // 
-            lblCadastroLivros_TelaBibliotecario.AutoSize = true;
-            lblCadastroLivros_TelaBibliotecario.Cursor = Cursors.Hand;
-            lblCadastroLivros_TelaBibliotecario.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
-            lblCadastroLivros_TelaBibliotecario.ForeColor = Color.White;
-            lblCadastroLivros_TelaBibliotecario.Location = new Point(738, 58);
-            lblCadastroLivros_TelaBibliotecario.Name = "lblCadastroLivros_TelaBibliotecario";
-            lblCadastroLivros_TelaBibliotecario.Size = new Size(168, 31);
-            lblCadastroLivros_TelaBibliotecario.TabIndex = 8;
-            lblCadastroLivros_TelaBibliotecario.Text = "Cadastro Livro";
+            label1.AutoSize = true;
+            label1.Font = new Font("High Tower Text", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(290, 160);
+            label1.Name = "label1";
+            label1.Size = new Size(980, 423);
+            label1.TabIndex = 0;
+            label1.Text = "     Bem Vindo\r\n            ao\r\nBiblioteca de Povo";
+            // 
+            // lblCadastroLivros_TelaAdm
+            // 
+            lblCadastroLivros_TelaAdm.AutoSize = true;
+            lblCadastroLivros_TelaAdm.Cursor = Cursors.Hand;
+            lblCadastroLivros_TelaAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
+            lblCadastroLivros_TelaAdm.ForeColor = Color.White;
+            lblCadastroLivros_TelaAdm.Location = new Point(738, 58);
+            lblCadastroLivros_TelaAdm.Name = "lblCadastroLivros_TelaAdm";
+            lblCadastroLivros_TelaAdm.Size = new Size(168, 31);
+            lblCadastroLivros_TelaAdm.TabIndex = 8;
+            lblCadastroLivros_TelaAdm.Text = "Cadastro Livro";
+            lblCadastroLivros_TelaAdm.Click += lblCadastroLivros_TelaAdm_Click;
             // 
             // pictureBox2
             // 
@@ -86,66 +101,68 @@
             pictureBox2.TabIndex = 0;
             pictureBox2.TabStop = false;
             // 
-            // btnSair_TelaBibliotecario
+            // btnSair_TelaAdm
             // 
-            btnSair_TelaBibliotecario.BackColor = Color.Red;
-            btnSair_TelaBibliotecario.Cursor = Cursors.Hand;
-            btnSair_TelaBibliotecario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSair_TelaBibliotecario.ForeColor = Color.White;
-            btnSair_TelaBibliotecario.Location = new Point(1559, 45);
-            btnSair_TelaBibliotecario.Name = "btnSair_TelaBibliotecario";
-            btnSair_TelaBibliotecario.Size = new Size(102, 47);
-            btnSair_TelaBibliotecario.TabIndex = 7;
-            btnSair_TelaBibliotecario.Text = "SAIR";
-            btnSair_TelaBibliotecario.UseVisualStyleBackColor = false;
+            btnSair_TelaAdm.BackColor = Color.Red;
+            btnSair_TelaAdm.Cursor = Cursors.Hand;
+            btnSair_TelaAdm.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnSair_TelaAdm.ForeColor = Color.White;
+            btnSair_TelaAdm.Location = new Point(1559, 45);
+            btnSair_TelaAdm.Name = "btnSair_TelaAdm";
+            btnSair_TelaAdm.Size = new Size(102, 47);
+            btnSair_TelaAdm.TabIndex = 7;
+            btnSair_TelaAdm.Text = "SAIR";
+            btnSair_TelaAdm.UseVisualStyleBackColor = false;
             // 
-            // lblEstoque_TelaBibliotecario
+            // lblEstoque_TelaAdm
             // 
-            lblEstoque_TelaBibliotecario.AutoSize = true;
-            lblEstoque_TelaBibliotecario.Cursor = Cursors.Hand;
-            lblEstoque_TelaBibliotecario.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
-            lblEstoque_TelaBibliotecario.ForeColor = Color.White;
-            lblEstoque_TelaBibliotecario.Location = new Point(1391, 58);
-            lblEstoque_TelaBibliotecario.Name = "lblEstoque_TelaBibliotecario";
-            lblEstoque_TelaBibliotecario.Size = new Size(99, 31);
-            lblEstoque_TelaBibliotecario.TabIndex = 6;
-            lblEstoque_TelaBibliotecario.Text = "Estoque";
+            lblEstoque_TelaAdm.AutoSize = true;
+            lblEstoque_TelaAdm.Cursor = Cursors.Hand;
+            lblEstoque_TelaAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
+            lblEstoque_TelaAdm.ForeColor = Color.White;
+            lblEstoque_TelaAdm.Location = new Point(1391, 58);
+            lblEstoque_TelaAdm.Name = "lblEstoque_TelaAdm";
+            lblEstoque_TelaAdm.Size = new Size(99, 31);
+            lblEstoque_TelaAdm.TabIndex = 6;
+            lblEstoque_TelaAdm.Text = "Estoque";
             // 
-            // lblDevolucao_TelaBibliotecario
+            // lblDevolucao_TelaAdm
             // 
-            lblDevolucao_TelaBibliotecario.AutoSize = true;
-            lblDevolucao_TelaBibliotecario.Cursor = Cursors.Hand;
-            lblDevolucao_TelaBibliotecario.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
-            lblDevolucao_TelaBibliotecario.ForeColor = Color.White;
-            lblDevolucao_TelaBibliotecario.Location = new Point(1191, 58);
-            lblDevolucao_TelaBibliotecario.Name = "lblDevolucao_TelaBibliotecario";
-            lblDevolucao_TelaBibliotecario.Size = new Size(127, 31);
-            lblDevolucao_TelaBibliotecario.TabIndex = 4;
-            lblDevolucao_TelaBibliotecario.Text = "Devolução";
+            lblDevolucao_TelaAdm.AutoSize = true;
+            lblDevolucao_TelaAdm.Cursor = Cursors.Hand;
+            lblDevolucao_TelaAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
+            lblDevolucao_TelaAdm.ForeColor = Color.White;
+            lblDevolucao_TelaAdm.Location = new Point(1191, 58);
+            lblDevolucao_TelaAdm.Name = "lblDevolucao_TelaAdm";
+            lblDevolucao_TelaAdm.Size = new Size(127, 31);
+            lblDevolucao_TelaAdm.TabIndex = 4;
+            lblDevolucao_TelaAdm.Text = "Devolução";
             // 
-            // lblEmprestimo_TelaBibliotecario
+            // lblEmprestimo_TelaAdm
             // 
-            lblEmprestimo_TelaBibliotecario.AutoSize = true;
-            lblEmprestimo_TelaBibliotecario.Cursor = Cursors.Hand;
-            lblEmprestimo_TelaBibliotecario.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
-            lblEmprestimo_TelaBibliotecario.ForeColor = Color.White;
-            lblEmprestimo_TelaBibliotecario.Location = new Point(975, 58);
-            lblEmprestimo_TelaBibliotecario.Name = "lblEmprestimo_TelaBibliotecario";
-            lblEmprestimo_TelaBibliotecario.Size = new Size(143, 31);
-            lblEmprestimo_TelaBibliotecario.TabIndex = 3;
-            lblEmprestimo_TelaBibliotecario.Text = "Emprestimo";
+            lblEmprestimo_TelaAdm.AutoSize = true;
+            lblEmprestimo_TelaAdm.Cursor = Cursors.Hand;
+            lblEmprestimo_TelaAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
+            lblEmprestimo_TelaAdm.ForeColor = Color.White;
+            lblEmprestimo_TelaAdm.Location = new Point(975, 58);
+            lblEmprestimo_TelaAdm.Name = "lblEmprestimo_TelaAdm";
+            lblEmprestimo_TelaAdm.Size = new Size(143, 31);
+            lblEmprestimo_TelaAdm.TabIndex = 3;
+            lblEmprestimo_TelaAdm.Text = "Emprestimo";
+            lblEmprestimo_TelaAdm.Click += lblEmprestimo_TelaAdm_Click;
             // 
-            // lblCadastroCliente_TelaBibliotecario
+            // lblCadastroPessoa_TelaAdm
             // 
-            lblCadastroCliente_TelaBibliotecario.AutoSize = true;
-            lblCadastroCliente_TelaBibliotecario.Cursor = Cursors.Hand;
-            lblCadastroCliente_TelaBibliotecario.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
-            lblCadastroCliente_TelaBibliotecario.ForeColor = Color.White;
-            lblCadastroCliente_TelaBibliotecario.Location = new Point(482, 58);
-            lblCadastroCliente_TelaBibliotecario.Name = "lblCadastroCliente_TelaBibliotecario";
-            lblCadastroCliente_TelaBibliotecario.Size = new Size(185, 31);
-            lblCadastroCliente_TelaBibliotecario.TabIndex = 1;
-            lblCadastroCliente_TelaBibliotecario.Text = "Cadastro Pessoa";
+            lblCadastroPessoa_TelaAdm.AutoSize = true;
+            lblCadastroPessoa_TelaAdm.Cursor = Cursors.Hand;
+            lblCadastroPessoa_TelaAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold);
+            lblCadastroPessoa_TelaAdm.ForeColor = Color.White;
+            lblCadastroPessoa_TelaAdm.Location = new Point(482, 58);
+            lblCadastroPessoa_TelaAdm.Name = "lblCadastroPessoa_TelaAdm";
+            lblCadastroPessoa_TelaAdm.Size = new Size(185, 31);
+            lblCadastroPessoa_TelaAdm.TabIndex = 1;
+            lblCadastroPessoa_TelaAdm.Text = "Cadastro Pessoa";
+            lblCadastroPessoa_TelaAdm.Click += lblCadastroCliente_TelaAdm_Click_1;
             // 
             // pictureBox1
             // 
@@ -205,11 +222,13 @@
             lblBiblioteca.TabIndex = 0;
             lblBiblioteca.Text = "Biblioteca\r\n     de \r\n   Povo";
             lblBiblioteca.TextAlign = ContentAlignment.MiddleLeft;
+            lblBiblioteca.Click += lblBiblioteca_Click;
             // 
             // panel2
             // 
             panel2.BackColor = Color.DarkViolet;
-            panel2.Controls.Add(label1);
+            panel2.Controls.Add(lblDesconectarAdm);
+            panel2.Controls.Add(lblLivrosEmprestadosAdm);
             panel2.Controls.Add(lblSistemaAdm);
             panel2.Controls.Add(lblPermissoesAdm);
             panel2.Controls.Add(lblPerfiesAdm);
@@ -222,17 +241,29 @@
             panel2.Size = new Size(259, 790);
             panel2.TabIndex = 4;
             // 
-            // label1
+            // lblDesconectarAdm
             // 
-            label1.AutoSize = true;
-            label1.Cursor = Cursors.Hand;
-            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(19, 292);
-            label1.Name = "label1";
-            label1.Size = new Size(221, 31);
-            label1.TabIndex = 15;
-            label1.Text = "Livros Emprestados";
+            lblDesconectarAdm.AutoSize = true;
+            lblDesconectarAdm.Cursor = Cursors.Hand;
+            lblDesconectarAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblDesconectarAdm.ForeColor = Color.White;
+            lblDesconectarAdm.Location = new Point(19, 731);
+            lblDesconectarAdm.Name = "lblDesconectarAdm";
+            lblDesconectarAdm.Size = new Size(145, 31);
+            lblDesconectarAdm.TabIndex = 16;
+            lblDesconectarAdm.Text = "Desconectar";
+            // 
+            // lblLivrosEmprestadosAdm
+            // 
+            lblLivrosEmprestadosAdm.AutoSize = true;
+            lblLivrosEmprestadosAdm.Cursor = Cursors.Hand;
+            lblLivrosEmprestadosAdm.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblLivrosEmprestadosAdm.ForeColor = Color.White;
+            lblLivrosEmprestadosAdm.Location = new Point(19, 292);
+            lblLivrosEmprestadosAdm.Name = "lblLivrosEmprestadosAdm";
+            lblLivrosEmprestadosAdm.Size = new Size(221, 31);
+            lblLivrosEmprestadosAdm.TabIndex = 15;
+            lblLivrosEmprestadosAdm.Text = "Livros Emprestados";
             // 
             // lblSistemaAdm
             // 
@@ -285,13 +316,13 @@
             // panel1
             // 
             panel1.BackColor = Color.DarkViolet;
-            panel1.Controls.Add(lblCadastroLivros_TelaBibliotecario);
+            panel1.Controls.Add(lblCadastroLivros_TelaAdm);
             panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(btnSair_TelaBibliotecario);
-            panel1.Controls.Add(lblEstoque_TelaBibliotecario);
-            panel1.Controls.Add(lblDevolucao_TelaBibliotecario);
-            panel1.Controls.Add(lblEmprestimo_TelaBibliotecario);
-            panel1.Controls.Add(lblCadastroCliente_TelaBibliotecario);
+            panel1.Controls.Add(btnSair_TelaAdm);
+            panel1.Controls.Add(lblEstoque_TelaAdm);
+            panel1.Controls.Add(lblDevolucao_TelaAdm);
+            panel1.Controls.Add(lblEmprestimo_TelaAdm);
+            panel1.Controls.Add(lblCadastroPessoa_TelaAdm);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(lblBiblioteca);
             panel1.Dock = DockStyle.Top;
@@ -306,11 +337,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Thistle;
             ClientSize = new Size(1897, 987);
-            Controls.Add(pnlPrincipal_Bibliotecario);
+            Controls.Add(pnlPrincipalAdm);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "TelaAdminPrincipal";
             Text = "TelaAdminPrincipal";
+            pnlPrincipalAdm.ResumeLayout(false);
+            pnlPrincipalAdm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
@@ -322,14 +355,14 @@
 
         #endregion
 
-        private Panel pnlPrincipal_Bibliotecario;
-        private Label lblCadastroLivros_TelaBibliotecario;
+        private Panel pnlPrincipalAdm;
+        private Label lblCadastroLivros_TelaAdm;
         private PictureBox pictureBox2;
-        private Button btnSair_TelaBibliotecario;
-        private Label lblEstoque_TelaBibliotecario;
-        private Label lblDevolucao_TelaBibliotecario;
-        private Label lblEmprestimo_TelaBibliotecario;
-        private Label lblCadastroCliente_TelaBibliotecario;
+        private Button btnSair_TelaAdm;
+        private Label lblEstoque_TelaAdm;
+        private Label lblDevolucao_TelaAdm;
+        private Label lblEmprestimo_TelaAdm;
+        private Label lblCadastroCliente_TelaAdm;
         private PictureBox pictureBox1;
         private Label lblSuspenderRetomarLivrosAdm;
         private Label lblSuspenderRetomarClienteAdm;
@@ -341,6 +374,9 @@
         private Label lblSistemaAdm;
         private Label lblPermissoesAdm;
         private Label lblPerfiesAdm;
+        private Label lblLivrosEmprestadosAdm;
         private Label label1;
+        private Label lblDesconectarAdm;
+        private Label lblCadastroPessoa_TelaAdm;
     }
 }
